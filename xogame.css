@@ -1,0 +1,55 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer {
+
+    width: 50%;
+    height: 100vh;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+.title {
+
+    background-color: #f25;
+    height: 100px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-right: 5px;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.square {
+
+    
+    height: 150px;
+    background-color: blue;
+}
+
+.box {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    text-align: center;
+    font-size: 110px;
+    color: #eee;
+}
+
+.square:hover {
+
+    cursor: pointer;
+    background-color: black;
+}
